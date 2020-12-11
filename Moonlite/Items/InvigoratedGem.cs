@@ -34,7 +34,7 @@ namespace Moonlite.Items
 			if(Main.dayRate != 0) {
 				//player.AddBuff(mod.BuffType("TimelessTranquility"),350);
 				Main.dayRate = 0;
-				Main.NewText("The flow of time has stopped.  Enemy spawn rates are reduced.", Colors.RarityYellow, true);
+				Main.NewText("The flow of time has stopped.  Enemy spawn rates are prevented.", Colors.RarityYellow, true);
 				
             } else {
 				//if(player.HasBuff(mod.BuffType("TimelessTranquility"))) {
