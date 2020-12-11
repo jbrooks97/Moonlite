@@ -13,6 +13,9 @@ namespace Moonlite.NPCs
             if(player.HasBuff(mod.BuffType("TimelessTranquility"))) {
                 maxSpawns = 0;
             }
+            if(Main.dayRate == 0) {
+                maxSpawns = 0;
+            }
 
             base.EditSpawnRate(player, ref spawnRate, ref maxSpawns);
         }

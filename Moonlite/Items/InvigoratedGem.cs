@@ -32,14 +32,14 @@ namespace Moonlite.Items
         public override bool UseItem(Player player) {
 
 			if(Main.dayRate != 0) {
-				player.AddBuff(mod.BuffType("TimelessTranquility"),350);
+				//player.AddBuff(mod.BuffType("TimelessTranquility"),350);
 				Main.dayRate = 0;
-				Main.NewText("The flow of time has stopped.", Colors.RarityYellow, true);
+				Main.NewText("The flow of time has stopped.  Enemy spawn rates are reduced.", Colors.RarityYellow, true);
 				
             } else {
-				if(player.HasBuff(mod.BuffType("TimelessTranquility"))) {
-					player.ClearBuff(mod.BuffType("TimelessTranquility"));
-				}
+				//if(player.HasBuff(mod.BuffType("TimelessTranquility"))) {
+				//	player.ClearBuff(mod.BuffType("TimelessTranquility"));
+				//}
 				Main.dayRate = 1;
 				Main.NewText("The flow of time has resumed.", Colors.RarityYellow, true);
 			}
@@ -55,7 +55,7 @@ namespace Moonlite.Items
 			recipe.AddIngredient(ItemID.Sapphire, 7);
 			recipe.AddIngredient(ItemID.Topaz, 7);
 			recipe.AddIngredient(ItemID.Amethyst, 7);
-			recipe.AddTile(TileID.Hellforge);
+			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

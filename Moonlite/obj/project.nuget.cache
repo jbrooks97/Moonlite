@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gZNmDjev3k9gW5QnjsIt5rhlY5SPAeko6mubJxt+WiAbXaojIKFh6ccQ97lDN7l5yGcUbIJkg5UsBfjRP06PAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\James Brooks\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Moonlite\\Moonlite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\James Brooks\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
