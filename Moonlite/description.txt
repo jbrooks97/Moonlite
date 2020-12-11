@@ -1,0 +1,5 @@
+Moonlite is a fantasy themed, lightweight, quality-of-life mod for terraria.
+
+This mod introduces the following items:
+
+	-Invigorated Gem - freezes time of day and stop enemies from spawning.
