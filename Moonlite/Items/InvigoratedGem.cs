@@ -8,7 +8,7 @@ namespace Moonlite.Items
 	{
 		public override void SetStaticDefaults() {
 			// DisplayName.SetDefault("BasicSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("Toggles the flow of time.");
+			Tooltip.SetDefault("Odd colors swirl within.  Toggles the flow of time.  Enemies will not spawn when time is stopped.");
 		}
 
 		public override void SetDefaults() {
@@ -34,7 +34,7 @@ namespace Moonlite.Items
 			if(Main.dayRate != 0) {
 				//player.AddBuff(mod.BuffType("TimelessTranquility"),350);
 				Main.dayRate = 0;
-				Main.NewText("The flow of time has stopped.  Enemy spawn rates are prevented.", Colors.RarityYellow, true);
+				Main.NewText("The flow of time has stopped.", Colors.RarityYellow, true);
 				
             } else {
 				//if(player.HasBuff(mod.BuffType("TimelessTranquility"))) {
