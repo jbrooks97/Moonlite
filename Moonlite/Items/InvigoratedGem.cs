@@ -8,7 +8,7 @@ namespace Moonlite.Items
 	{
 		public override void SetStaticDefaults() {
 			// DisplayName.SetDefault("BasicSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("Odd colors swirl within.  Toggles the flow of time.  Enemies will not spawn when time is stopped.");
+			Tooltip.SetDefault("Toggles the flow of time.");
 		}
 
 		public override void SetDefaults() {
